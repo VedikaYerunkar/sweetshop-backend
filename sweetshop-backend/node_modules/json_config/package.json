@@ -1,0 +1,28 @@
+{
+  "name": "json_config",
+  "version": "0.1.0",
+  "description": "Load config file",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://fpercival@github.com/fpercival/json_config.git"
+  },
+  "author": "F. Percival",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fpercival/json_config/issues"
+  },
+  "homepage": "https://github.com/fpercival/json_config#readme",
+  "devDependencies": {
+    "mocha": "^3.3.0"
+  },
+  "dependencies": {
+    "nodeutils": "git+https://github.com/fpercival/nodeutils.git"
+  }
+}
