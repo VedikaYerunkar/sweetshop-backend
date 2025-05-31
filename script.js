@@ -110,7 +110,7 @@ placeOrderBtn.addEventListener('click', function () {
   };
 
   // Save order to backend
-  fetch('http://localhost:3000/order', {
+  fetch('https://sweetshop-backend.onrender.com/order', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(orderData)
